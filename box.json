@@ -1,0 +1,37 @@
+{
+    "author":"David Levin",
+    "bugs":"https://github.com/homestar9/cbswagger-redoc/issues",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{},
+    "description":"",
+    "devDependencies":{},
+    "documentation":"https://github.com/homestar9/cbswagger-redoc",
+    "homepage":"https://github.com/homestar9/cbswagger-redoc",
+    "projectURL":"https://github.com/homestar9/cbswagger-redoc",
+    "ignore":[],
+    "installPaths":{},
+    "instructions":"",
+    "keywords":"Swagger,Redoc,cbSwaggerUI,cbSwagger",
+    "license":[
+        {
+            "type":"MIT",
+            "url":"https://github.com/homestar9/cbswagger-redoc/blob/main/LICENSE"
+        }
+    ],
+    "name":"Swagger Redoc UI for ColdBox",
+    "private":false,
+    "repository":{
+        "type":"GIT",
+        "URL":"https://github.com/homestar9/cbswagger-redoc"
+    },
+    "location":"forgeboxstorage",
+    "scripts":{
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "shortDescription":"Display the Redoc UI for a Swagger JSON file. Defaults to /cbswagger",
+    "slug":"cbswagger-redoc",
+    "type":"modules",
+    "version":"0.1.0"
+}
