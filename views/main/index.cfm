@@ -1,4 +1,5 @@
 <cfset prc.moduleRoot = event.getModuleRoot() />
+<cfset prc.settings = getModuleSettings( "cbswagger-redoc" )>
 <cfset prc.cbox_debugger_show = false>
 
 <cfoutput>
@@ -23,9 +24,7 @@
             rel="stylesheet"
         />
 
-        <!--
-        Redoc doesn't change outer page styles
-        -->
+        <!--Redoc doesn't change outer page styles-->
         <style>
             body {
             margin: 0;
@@ -34,14 +33,20 @@
         </style>
     </head>
     <body>
-        <!--
-        Redoc element with link to your OpenAPI definition
-        -->
-        <redoc spec-url="#prc.settings.swaggerFiles#"></redoc>
-        <!--
-        Link to Redoc JavaScript on CDN for rendering standalone element
-        -->
+        <!--Redoc element with link to your OpenAPI definition-->
+        <div id="redoc_container"></div>
+        
+        <!--Link to Redoc JavaScript on CDN for rendering standalone element-->
         <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/redoc-try-it-out/dist/try-it-out.min.js"></script>
+
+        <script>
+        RedocTryItOut.init(
+            "#prc.settings.swaggerFile#",
+            { title: "Pet Store" }, 
+            document.getElementById("redoc_container")
+        );
+        </script>
     </body>
     </html>
 </cfoutput>
