@@ -1,4 +1,6 @@
-# cbswagger-redoc Module
+# cbswagger-redoc
+
+![Redoc Logo](https://github.com/homestar9/cbswagger-redoc/blob/master/includes/img/redoc-logo.png?raw=true)
 
 This is the Swagger Redoc UI module for ColdBox applications.  It was inspired by the [cbSwaggerUI module](https://github.com/garciadev/cbSwaggerUI). By default, it looks in the /cbswagger location for the OpenAPI Swagger file. 
 
@@ -39,3 +41,9 @@ Example ColdBox.cfc configuration:
             "swaggerFile" : "/cbswagger"
         }
     };
+
+## Roadmap
+
+* Execute requests from the browser
+* Display personalized logo from `x-logo`
+* Basic security to limit access (possibly cbsecurity?)
