@@ -1,4 +1,4 @@
-# cbswagger-redoc
+# cbswagger-redoc (beta)
 
 ![Redoc Logo](https://github.com/homestar9/cbswagger-redoc/blob/master/includes/img/redoc-logo.png?raw=true)
 
