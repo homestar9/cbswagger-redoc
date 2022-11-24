@@ -6,6 +6,8 @@ This is the Swagger Redoc UI module for ColdBox applications.  It was inspired b
 
 The UI is available at **/redoc** - where you will see a visual representation of your Swagger docs.
 
+![Redoc Screenshot](https://github.com/homestar9/cbswagger-redoc/blob/master/includes/img/redoc-demo.png?raw=true)
+
 ## Important links
 
 - <https://swagger.io/docs/>
@@ -47,3 +49,4 @@ Example ColdBox.cfc configuration:
 * Execute requests from the browser
 * Display personalized logo from `x-logo`
 * Basic security to limit access (possibly cbsecurity?)
+* Ability to render a static HTML page/site
