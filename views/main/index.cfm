@@ -38,12 +38,12 @@
         
         <!--Link to Redoc JavaScript on CDN for rendering standalone element-->
         <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/redoc-try-it-out/dist/try-it-out.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/RedocCommunity/redoc-try-it-out@main/dist/try-it-out.min.js"></script>
 
         <script>
         RedocTryItOut.init(
             "#prc.settings.swaggerFile#",
-            { title: "Pet Store" }, 
+            { title: "#prc.settings.swaggerFile#" }, 
             document.getElementById("redoc_container")
         );
         </script>
