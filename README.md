@@ -24,7 +24,7 @@ box install cbswagger-redoc
 
 If you just want to use this with cbSwagger, there is nothing else to configure (assuming you have cbSwagger installed.)
 
-You can configure the following settings:
+You can optionaly configure the following settings:
 
 **swaggerFile**
 
@@ -32,17 +32,19 @@ The location for the swagger JSON file you want to render.
 
 Default: "/cbswagger"
 
-Examples:
+**title**
 
-    "swaggerFile" : "/cbswagger"
+The title of your API project.
 
 Example ColdBox.cfc configuration:
-
-    moduleSettings = {
-        cbSwaggerRedoc : {
-            "swaggerFile" : "/cbswagger"
-        }
-    };
+```
+moduleSettings = {
+    cbSwaggerRedoc : {
+        "swaggerFile" : "/cbswagger",
+        "title" : "My Cool API"
+    }
+};
+```
 
 ## Roadmap
 
