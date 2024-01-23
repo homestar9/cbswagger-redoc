@@ -15,7 +15,8 @@ component {
 
 	function configure(){
 		settings = {
-			"swaggerFile" : "/cbswagger"
+			"swaggerFile" : "/cbswagger",
+            "title" : "Swagger Redoc for ColdBox",
 		};
 
 		// Layout Settings
