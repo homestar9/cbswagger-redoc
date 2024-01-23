@@ -33,5 +33,5 @@
     "shortDescription":"Display the Redoc UI for a Swagger JSON file. Defaults to /cbswagger",
     "slug":"cbswagger-redoc",
     "type":"modules",
-    "version":"1.0.0"
+    "version":"1.0.1"
 }
